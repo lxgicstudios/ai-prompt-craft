@@ -1,6 +1,10 @@
 # ai-prompt-craft
 
-Transform basic prompts into elite structured prompts using Anthropic's 10-step framework.
+[![npm version](https://img.shields.io/npm/v/ai-prompt-craft.svg)](https://www.npmjs.com/package/ai-prompt-craft)
+[![npm downloads](https://img.shields.io/npm/dm/ai-prompt-craft.svg)](https://www.npmjs.com/package/ai-prompt-craft)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+AI prompt engineering toolkit. Transform basic prompts into elite structured prompts using Anthropic's 10-step framework.
 
 Based on [Anthropic's official prompt engineering guide](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview) for Claude.
 
