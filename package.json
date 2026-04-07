@@ -1,5 +1,5 @@
 {
-  "name": "ai-prompt-craft",
+  "name": "@lxgicstudios/ai-prompt-craft",
   "version": "1.0.0",
   "description": "Transform basic prompts into elite structured prompts using Anthropic's 10-step framework",
   "main": "index.js",
