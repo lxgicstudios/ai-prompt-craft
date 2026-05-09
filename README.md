@@ -1,218 +1,123 @@
-# ai-prompt-craft
+## 📄 License
 
-[![npm version](https://img.shields.io/npm/v/ai-prompt-craft.svg)](https://www.npmjs.com/package/ai-prompt-craft)
-[![npm downloads](https://img.shields.io/npm/dm/ai-prompt-craft.svg)](https://www.npmjs.com/package/ai-prompt-craft)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub stars](https://img.shields.io/github/stars/lxgic-studios/ai-prompt-craft)](https://github.com/lxgic-studios/ai-prompt-craft/stargazers)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue)](https://www.typescriptlang.org/)
+MIT License - see [LICENSE](LICENSE) file for details.
+## 🏷️ Badges
 
+![npm](https://img.shields.io/npm/v/ai-prompt-craft)
+![Node.js](https://img.shields.io/badge/node-%3E%3D16.0.0-brightgreen)
+![License](https://img.shields.io/npm/l/ai-prompt-craft)
+![TypeScript](https://img.shields.io/badge/typescript-%3E%3D4.0-blue)
 
-AI prompt engineering toolkit. Transform basic prompts into elite structured prompts using Anthropic's 10-step framework.
+# Prompt engineering and optimization utilities
 
-Based on [Anthropic's official prompt engineering guide](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview) for Claude.
+Prompt engineering toolkit. Optimizes AI prompts for better responses and consistency.
+## Usage
 
-## The 10-Step Framework
+```javascript
+// Import the package
+const prompt-craft = require('ai-prompt-craft');
 
-1. **Task Context** - Define the role and main task
-2. **Tone Context** - Set communication style
-3. **Background Data** - Reference documents and context
-4. **Detailed Task Description** - Constraints and guidelines
-5. **Examples** - Provide desired output examples
-6. **Conversation History** - Reference past context
-7. **Immediate Task** - The specific action (use verbs!)
-8. **Deep Thinking** - Trigger reasoning mode
-9. **Output Formatting** - Specify output structure
-10. **Prefilled Response** - Start the response
+// Basic usage example
+prompt-craft.main();
+```
+
+## Examples
+
+See the `examples/` directory for more detailed usage examples.
 
 ## Installation
 
 ```bash
-npm install -g ai-prompt-craft
+npm install ai-prompt-craft
 ```
 
-## Usage
+[![npm version](https://badge.fury.io/js/ai-prompt-craft.svg)](https://badge.fury.io/js/ai-prompt-craft)
 
-### Transform a Basic Prompt
 
-```bash
-ai-prompt-craft transform "Write a function to sort an array"
-```
 
-Output:
-```
-Write a function to sort an array
+🔗 [GitHub](https://github.com/lxgicstudios) · [Twitter](https://x.com/lxgicstudios)
 
-Think carefully before responding.
-```
+ like this? We have 100+ on our  [github.com/lxgicstudios](https://github.com/lxgicstudios)
 
-### Build a Structured Prompt
 
-```bash
-ai-prompt-craft build \
-  --role "expert Python developer" \
-  --task "Help write clean, efficient code" \
-  --tone technical \
-  --format code \
-  --thinking systematic \
-  --action "Create a binary search function with proper error handling"
-```
+🔗 [GitHub](https://github.com/lxgicstudios) · [Twitter](https://x.com/lxgicstudios)
 
-Output:
-```
-You are expert Python developer. Help write clean, efficient code
+ like this? We have 100+ on our  github.com/lxgicstudios
 
-Respond in a technical, detailed tone. Use precise terminology.
 
-<TASK>
-Create a binary search function with proper error handling
-</TASK>
+🔗  https://github.com/lxgicstudios ·  https://x.com/lxgicstudios
 
-<THINKING>
-Work through this systematically and methodically.
-</THINKING>
+ like this? We have 100+ on our  github.com/lxgicstudios
 
-<OUTPUT>
-Format your response as code with comments.
-</OUTPUT>
-```
 
-### Generate Templates
+🔗 [GitHub](https://github.com/lxgicstudios) · [Twitter](https://x.com/lxgicstudios)
 
-```bash
-ai-prompt-craft template --use-case coding
-ai-prompt-craft template --use-case research
-ai-prompt-craft template --use-case brainstorm
-```
+ like this? We have 100+ on our  [github.com/lxgicstudios](https://github.com/lxgicstudios)
 
-Available templates: `coding`, `writing`, `analysis`, `research`, `brainstorm`, `review`, `explain`
 
-### Analyze Existing Prompts
 
-```bash
-ai-prompt-craft analyze "You are an expert. Help me write code."
-```
 
-Output:
-```
-Prompt Analysis
-===============
-Coverage Score: 30%
-Components Found: 3/10
 
-Recommendation: Consider enhancing this prompt with more structure
 
-Component Checklist:
-  ✓ Role/Persona
-  ✗ Tone Context
-  ✗ Background Data
-  ✗ Instructions/Rules
-  ✗ Examples
-  ✗ Conversation History
-  ✓ Immediate Task
-  ✗ Thinking Trigger
-  ✗ Output Format
-  ✗ Prefilled Response
-```
+ [github.com/LXGIC-Studios](https://github.com/lxgicstudios)
 
-### Validate Prompts
 
-```bash
-ai-prompt-craft validate "Write something"
-```
+- [npm Advanced SEO Guide](https://github.com/lxgicstudios/npm-seo-guide) - npm package optimization
+- [AI Search Optimization](https://github.com/lxgicstudios/ai-seo-guide) - AI-powered SEO strategies
 
-### List Available Presets
+## 🚀 Built with ❤️ by LXGIC Studios
 
-```bash
-ai-prompt-craft list tones      # professional, casual, technical, warm, etc.
-ai-prompt-craft list formats    # bullets, numbered, markdown, json, etc.
-ai-prompt-craft list thinking   # standard, deep, analytical, critical, etc.
-ai-prompt-craft list verbs      # recommended action verbs
-ai-prompt-craft list templates  # available use case templates
-ai-prompt-craft list all        # show everything
-```
+> This tool is part of the [lxgic studios](https://github.com/lxgicstudios) collection of AI-powered developer tools. We specialize in creating intelligent automation solutions that help developers build faster, smarter, and more efficiently.
 
-## Piping Support
 
-```bash
-echo "Explain quantum computing" | ai-prompt-craft transform --tone academic
-cat prompt.txt | ai-prompt-craft analyze
-```
+**Discover more tools:** [lxgic studios GitHub](https://github.com/lxgicstudios)  
+**Follow us on ** [@lxgicstudios](https://twitter.com/lxgicstudios)  
+**Join our community:** [Discord Server](https://discord.gg/lxgicstudios)  
 
-## Programmatic Usage
+## 📄 License
 
-```javascript
-const { buildPrompt, transformPrompt, generateTemplate, analyzePrompt } = require('ai-prompt-craft');
+MIT © 2025 LXGIC Studios. Built with ⚡ and AI.
 
-// Build a structured prompt
-const prompt = buildPrompt({
-  role: 'expert data scientist',
-  task: 'Analyze datasets and provide insights',
-  tone: 'professional',
-  context: 'Sales data from Q4 2024',
-  instructions: 'Focus on trends and anomalies',
-  rules: ['Be specific', 'Include visualizations recommendations'],
-  action: 'Analyze the provided CSV data',
-  thinking: 'analytical',
-  format: 'markdown'
-});
+## 🤝 Contributing
 
-// Transform a basic prompt
-const enhanced = transformPrompt('Write a blog post about AI', {
-  tone: 'casual',
-  format: 'markdown',
-  thinking: 'creative'
-});
+We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
 
-// Generate a template
-const template = generateTemplate('coding');
 
-// Analyze a prompt
-const analysis = analyzePrompt('You are a helpful assistant.');
-console.log(analysis.coverage); // 10
-```
+<div align="center">
+  <p>
+    <a href="https://github.com/lxgicstudios/sponsor">
+      <img src="https://img.shields.io/badge/-Sponsor%20Us-%23EA4AAA?style=for-the-badge&logo=github&logoColor=white" alt="Sponsor LXGIC Studios">
+    </a>
+    <a href="https://twitter.com/lxgicstudios">
+      <img src="https://img.shields.io/badge/-Follow%20Us-%231DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Follow LXGIC Studios">
+    </a>
+    <a href="https://discord.gg/lxgicstudios">
+      <img src="https://img.shields.io/badge/-Join%20Discord-%235865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Join Discord">
+    </a>
+  </p>
+</div>
 
-## Available Presets
+---
 
-### Tones
-- `professional` - Formal, precise
-- `casual` - Friendly, conversational
-- `technical` - Detailed, terminology-focused
-- `warm` - Supportive, encouraging
-- `concise` - Brief, direct
-- `academic` - Scholarly, citation-focused
-- `creative` - Imaginative, outside the box
+Built by [LXGIC Studios](https://github.com/lxgicstudios)
 
-### Output Formats
-- `bullets` - Bullet points
-- `numbered` - Numbered list
-- `markdown` - Full Markdown with headers
-- `json` - Valid JSON
-- `table` - Table format
-- `prose` - Flowing paragraphs
-- `code` - Code with comments
-- `stepByStep` - Step-by-step instructions
+🔗 [GitHub](https://github.com/lxgicstudios) · [Twitter](https://x.com/lxgicstudios)
 
-### Thinking Modes
-- `standard` - Basic reasoning
-- `deep` - Step-by-step reasoning
-- `analytical` - Multi-angle analysis
-- `critical` - Issue identification
-- `creative` - Unconventional solutions
-- `systematic` - Methodical approach
-
-## License
-
-MIT
-
-## Credits
-
-Based on Anthropic's prompt engineering research and best practices.
+💡 Want more free tools like this? We have 100+ on our GitHub: [github.com/lxgicstudios](https://github.com/lxgicstudios)
 
 
 ---
 
-Built by [LXGIC Studios](https://github.com/LXGIC-Studios)
+**Built by [LXGIC Studios](https://lxgicstudios.com)**
 
 🔗 [GitHub](https://github.com/LXGIC-Studios) · [Twitter](https://x.com/lxgicstudios)
 
-💡 Want more free tools like this? We have 100+ on our GitHub: [github.com/lxgicstudios](https://github.com/lxgicstudios)
+💡 Want more free tools like this? We have 100+ on our GitHub: github.com/LXGIC-Studios
+
+---
+
+**Built by [LXGIC Studios](https://lxgicstudios.com)**
+
+🔗 [GitHub](https://github.com/LXGIC-Studios) · [Twitter](https://x.com/lxgicstudios)
+
+💡 Want more free tools like this? We have 100+ on our GitHub: github.com/LXGIC-Studios

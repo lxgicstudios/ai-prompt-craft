@@ -10,6 +10,7 @@
   "files": [
     "cli.js",
     "index.js",
+    "index.d.ts",
     "README.md",
     "SKILL.md"
   ],
@@ -17,31 +18,41 @@
     "test": "node cli.js --help"
   },
   "keywords": [
+    "2025-standards",
     "ai",
-    "prompt",
-    "claude",
+    "ai-2025",
+    "ai-powered",
     "anthropic",
-    "prompt-engineering",
-    "llm",
-    "chatgpt",
-    "gpt",
-    "openai",
-    "prompt-builder",
-    "developer-tools",
-    "cli",
     "automation",
-    "typescript",
-    "nodejs"
+    "chatgpt",
+    "claude",
+    "cli",
+    "developer-productivity",
+    "developer-tools",
+    "discoverability",
+    "generative-ai",
+    "gpt",
+    "llm",
+    "llm-optimized",
+    "modern-seo",
+    "nodejs",
+    "optimization",
+    "performance",
+    "performance-optimization",
+    "productivity",
+    "seo",
+    "seo-2026",
+    "typescript"
   ],
   "author": "LXGIC Studios <lxgicstudios@gmail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/lxgic-studios/ai-prompt-craft#readme",
+  "homepage": "https://github.com/LXGIC-Studios/ai-prompt-craft#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lxgic-studios/ai-prompt-craft.git"
+    "url": "https://github.com/LXGIC-Studios/ai-prompt-craft"
   },
   "bugs": {
-    "url": "https://github.com/lxgic-studios/ai-prompt-craft/issues"
+    "url": "https://github.com/LXGIC-Studios/ai-prompt-craft/issues"
   },
   "funding": {
     "type": "github",
@@ -50,6 +61,7 @@
   "engines": {
     "node": ">=18.0.0"
   },
+  "types": "index.d.ts",
   "publishConfig": {
     "access": "public",
     "provenance": true
