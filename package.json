@@ -1,11 +1,19 @@
 {
-  "name": "@lxgicstudios/ai-prompt-craft",
-  "version": "1.0.0",
-  "description": "Transform basic prompts into elite structured prompts using Anthropic's 10-step framework",
-  "main": "index.js",
+  "author": {
+    "name": "lxgic studios",
+    "email": "contact@lxgic.com",
+    "url": "https://lxgic.com"
+  },
   "bin": {
     "ai-prompt-craft": "cli.js",
     "prompt-craft": "cli.js"
+  },
+  "bugs": {
+    "url": "https://github.com/lxgicstudios/ai-prompt-craft/issues"
+  },
+  "description": "Transform basic prompts into elite structured prompts using Anthropic's 10-step framework",
+  "engines": {
+    "node": ">=18.0.0"
   },
   "files": [
     "cli.js",
@@ -14,56 +22,43 @@
     "README.md",
     "SKILL.md"
   ],
-  "scripts": {
-    "test": "node cli.js --help"
-  },
-  "keywords": [
-    "2025-standards",
-    "ai",
-    "ai-2025",
-    "ai-powered",
-    "anthropic",
-    "automation",
-    "chatgpt",
-    "claude",
-    "cli",
-    "developer-productivity",
-    "developer-tools",
-    "discoverability",
-    "generative-ai",
-    "gpt",
-    "llm",
-    "llm-optimized",
-    "modern-seo",
-    "nodejs",
-    "optimization",
-    "performance",
-    "performance-optimization",
-    "productivity",
-    "seo",
-    "seo-2026",
-    "typescript"
-  ],
-  "author": "LXGIC Studios <lxgicstudios@gmail.com>",
-  "license": "MIT",
-  "homepage": "https://github.com/LXGIC-Studios/ai-prompt-craft#readme",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/LXGIC-Studios/ai-prompt-craft"
-  },
-  "bugs": {
-    "url": "https://github.com/LXGIC-Studios/ai-prompt-craft/issues"
-  },
   "funding": {
     "type": "github",
     "url": "https://github.com/sponsors/LXGIC-Studios"
   },
-  "engines": {
-    "node": ">=18.0.0"
-  },
-  "types": "index.d.ts",
+  "homepage": "https://github.com/lxgicstudios/ai-prompt-craft#readme",
+  "keywords": [
+    "AI-optimized",
+    "AI-powered",
+    "ai",
+    "ai-optimized",
+    "ai-powered",
+    "automation",
+    "best-practices",
+    "cli",
+    "developer-tools",
+    "performance",
+    "seo-tools",
+    "technical-seo",
+    "utility",
+    "web-optimization",
+    "2025-standards",
+    "modern-seo"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@lxgicstudios/ai-prompt-craft",
   "publishConfig": {
     "access": "public",
     "provenance": true
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LXGIC-Studios/npm-tools/tree/main/ai-prompt-craft"
+  },
+  "scripts": {
+    "test": "node cli.js --help"
+  },
+  "types": "index.d.ts",
+  "version": "1.0.0"
 }
