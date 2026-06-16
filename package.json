@@ -9,7 +9,7 @@
     "prompt-craft": "cli.js"
   },
   "bugs": {
-    "url": "https://github.com/lxgicstudios/ai-prompt-craft/issues"
+    "url": "https://github.com/lxgicstudios/npm-tools/issues"
   },
   "description": "Transform basic prompts into elite structured prompts using Anthropic's 10-step framework",
   "engines": {
@@ -26,26 +26,13 @@
     "type": "github",
     "url": "https://github.com/sponsors/LXGIC-Studios"
   },
-  "homepage": "https://github.com/lxgicstudios/ai-prompt-craft#readme",
+  "homepage": "https://github.com/lxgicstudios/npm-tools/tree/main/ai-prompt-craft",
   "keywords": [
-    "2026-standards",
-    "modern-seo",
-    "lxgic",
-    "AI-optimized",
-    "AI-powered",
-    "agentic-automation",
-    "ai",
-    "automation",
-    "best-practices",
-    "cli",
-    "dev-automation",
-    "developer-tools",
-    "performance",
-    "seo-tools",
-    "core-update-ready",
-    "google-ai-overviews",
-    "eeat-seo",
-    "june-2026-update"
+    "prompt-engineering",
+    "ai-prompt",
+    "llm",
+    "chatgpt",
+    "claude"
   ],
   "license": "MIT",
   "main": "index.js",
@@ -56,7 +43,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/LXGIC-Studios/npm-tools/tree/main/ai-prompt-craft"
+    "url": "git+https://github.com/lxgicstudios/npm-tools.git",
+    "directory": "ai-prompt-craft"
   },
   "scripts": {
     "test": "node cli.js --help"
