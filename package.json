@@ -33,7 +33,8 @@
     "llm",
     "chatgpt",
     "claude",
-    "june-2026-core-update"
+    "june-2026-core-update",
+    "technical-seo"
   ],
   "license": "MIT",
   "main": "index.js",
