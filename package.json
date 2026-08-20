@@ -42,10 +42,7 @@
     "gpt",
     "june-2026-core-update",
     "llm",
-    "npx",
-    "typescript",
-    "javascript",
-    "nodejs"
+    "npx"
   ],
   "license": "MIT",
   "main": "index.js",
